@@ -1,0 +1,21 @@
+<Table>
+  <Wood>Mahogany</Wood>
+  <Legs>
+    <Leg>
+      <Length>60</Length>
+      <Stain>Bright</Stain>
+    </Leg>
+    <Leg>
+      <Length>70</Length>
+      <Stain>Dark</Stain>
+    </Leg>
+    <Leg>
+      <Length>60</Length>
+      <Stain>Bright</Stain>
+    </Leg>
+    <Leg>
+      <Length>70</Length>
+      <Stain>Dark</Stain>
+    </Leg>
+  </Legs>
+</Table>
