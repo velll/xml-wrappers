@@ -7,7 +7,6 @@
   "repository": "git@github.com:velll/xml-wrappers.git",
   "author": "Paul <paul@paulgoesdeep.com>",
   "license": "MIT",
-  "private": true,
   "keywords": [
     "xpath",
     "wrappers",
