@@ -1,2 +1,1 @@
-# xpath-wrapper
-Wrapper for document.evaluate
+# XML wrappers
