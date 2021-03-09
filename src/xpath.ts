@@ -1,16 +1,18 @@
+import { trace } from "./trace";
+
 function select(xmldoc: Document, expression: string): Node[] {
   const resolver = nsResolver(xmldoc.documentElement);
 
   const lookupResult = evaluate(expression, xmldoc, resolver);
 
-  console.log('lookup result');
-  console.log(lookupResult);
+  trace('lookup result');
+  trace(lookupResult);
 
   if (lookupResult instanceof XPathResult) {
     return lookupResultToArray(lookupResult);
   } else {
-    console.warn('Xpath lookup: wrong type');
-    console.warn(lookupResult);
+    trace('Xpath lookup: wrong type');
+    trace(lookupResult);
 
     return [];
   }
