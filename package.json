@@ -1,6 +1,6 @@
 {
   "name": "xml-wrappers",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A few convenient wrappers for working with XML documents",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
