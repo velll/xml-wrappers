@@ -58,6 +58,4 @@ function nsResolver(element: any) {
 
 type Resolver = (ns: any) => any;
 
-(window as any).evaluate = evaluate;
-
 export { select };
